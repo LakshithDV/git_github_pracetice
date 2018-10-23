@@ -1,0 +1,23 @@
+pipeline {
+   agent any
+ 
+    stages {
+	stage ('job1') {
+	 steps {
+            echo "This is for test"
+	}
+      }
+	stage ('job2') {
+         steps {
+            echo "This is for test"
+        }
+      }
+	stage ('job3') {
+         steps {
+            echo "This is for test"
+        }
+      }
+     }
+    }
+
+	
