@@ -2,17 +2,17 @@ pipeline {
    agent any
  
     stages {
-	stage ('job1') {
+	stage ('duild') {
 	 steps {
             echo "This is for test"
 	}
       }
-	stage ('job2') {
+	stage ('deploy') {
          steps {
             echo "This is for test"
         }
       }
-	stage ('job3') {
+	stage ('test') {
          steps {
             echo "This is for test"
         }
